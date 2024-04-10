@@ -1,8 +1,8 @@
 CC=gcc
 
-hello.o:hello.c
-	$(CC) hello.c -o hello.o
+hello_world:hello.c
+	$(CC) hello.c -o hello_world
 
 .PHONY:
 clean:
-	rm *.o
+	rm hello_world
